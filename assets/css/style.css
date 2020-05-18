@@ -9,4 +9,12 @@ h1{
     background-color: teal;
     padding: 10px;
     width: 100%;
+    text-align: center;
+    font-size: 35px;
+    font-family: "Times New Roman", Times, serif;
+}
+ 
+p{
+    text-align: center;
+    font: 15px Arial, sans-serif;
 }

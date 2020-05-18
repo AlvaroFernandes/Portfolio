@@ -1,0 +1,12 @@
+Body{
+    background-color: black;
+    color: white;
+    width: 1025px;
+    margin: 0 auto;
+}
+
+h1{
+    background-color: teal;
+    padding: 10px;
+    width: 100%;
+}

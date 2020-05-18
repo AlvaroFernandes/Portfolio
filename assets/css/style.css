@@ -18,3 +18,9 @@ p{
     text-align: center;
     font: 15px Arial, sans-serif;
 }
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

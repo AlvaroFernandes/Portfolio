@@ -19,8 +19,17 @@ p{
     font: 15px Arial, sans-serif;
 }
 footer{
+    background-color: teal ;
+    padding: 50px;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+}
+
+footer a{
+    font-size: 25px;
+    padding: 0 35px;
+    margin: 0 auto;
+    text-align: center;
 }

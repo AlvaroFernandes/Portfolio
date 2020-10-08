@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Pack My Bags",
+        "img": "../assets/img/packMybags.png",
+        "text": "An application that renders a list of items to pack, based on location, dates and weather forecast.",
+        "deploy": "https://mloibner.github.io/Pack-My-Bags/",
+        "git": "https://github.com/mloibner/Pack-My-Bags",
+        "video": ""
+    },
+    {
+        "name": "Code Quiz",
+        "img": "../assets/img/codeQuiz.png",
+        "text": "An application that renders a list of items to pack, based on location, dates and weather forecast.",
+        "deploy": "https://alvarofernandes.github.io/codeQuiz",
+        "git": "https://github.com/AlvaroFernandes/codeQuiz",
+        "video": ""
+    },
+    {
+        "name": "Weather Dashboard",
+        "img": "../assets/img/weatherDashboard.png",
+        "text": "",
+        "deploy": "https://alvarofernandes.github.io/weatherDashboard/",
+        "git": "https://github.com/AlvaroFernandes/weatherDashboard",
+        "video": ""
+    },
+    {
+        "name": "Team Profile Generator",
+        "img": "",
+        "text": "",
+        "deploy": "",
+        "git": "https://github.com/AlvaroFernandes/TeamProfileGenerator",
+        "video": "https://drive.google.com/file/d/1MKSrLDt9ThIbZffy9_dlfkg-THJpVF7R/view"
+    },
+    {
+        "name": "Employee Management System",
+        "img": "",
+        "text": "",
+        "deploy": "",
+        "git": "https://github.com/AlvaroFernandes/EmployeeTracker",
+        "video": ""
+    },
+    {
+        "name": "Eat Da Burguer",
+        "img": "",
+        "text": "",
+        "deploy": "https://obscure-inlet-20568.herokuapp.com/",
+        "git": "https://github.com/AlvaroFernandes/eatDaBurguer",
+        "video": ""
+    },
+    {
+        "name": "Progressive Budget",
+        "img": "",
+        "text": "",
+        "deploy": "https://salty-plains-90121.herokuapp.com/",
+        "git": "https://github.com/AlvaroFernandes/budgetTrackers",
+        "video": ""
+    }
+]

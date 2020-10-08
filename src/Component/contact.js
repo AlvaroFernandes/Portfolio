@@ -1,16 +1,16 @@
 import React from 'react';
-import HomeContent from './homeContent';
+import ContactContent from './contactContent';
 
-function Home() {
+function Contact(){
     return(
         <div className="container">
             <div className="card border-0 shadow my-5">
                 <div className="card-body p-5">
-                    <HomeContent />
+                    <ContactContent />
                 </div>
             </div>
         </div>  
     )
 }
 
-export default Home;
+export default Contact;

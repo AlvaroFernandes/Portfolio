@@ -1,8 +1,11 @@
 import React from 'react';
-import projects from '../assets/projects.json';
+import List from './projects';
 import Cards from './card.js'
 
 function PortfolioContent() {
+    
+    console.log(List)
+
     return(
         <section id='portfolio'>
             <div className='container my-3 py-5 text-center'>
@@ -12,10 +15,12 @@ function PortfolioContent() {
                         <p>Some of my best projects</p>
                     </div>
                 </div>
-           </div>
-           <div className="container-fluid d-flex justify-content-center">
-            {projects.map(e => {
+            </div>
+            <div className="container-fluid d-flex justify-content-center">
+                <div class="row">
+            {List.map(e => (
                 <Cards 
+                    key={e.key}
                     name={e.name}
                     img={e.img}
                     text={e.text}
@@ -23,8 +28,9 @@ function PortfolioContent() {
                     git={e.git}
                     video={e.video}
                 />
-            })}
-           </div>
+            ))}
+                </div>
+            </div>
        </section>
        
     )

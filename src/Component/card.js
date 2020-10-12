@@ -4,7 +4,12 @@ import React from 'react';
 function Cards(props){
     const style = {
         card: {
-            width: 18+"rem",
+            width: 18+'rem',
+            marginLeft: 10,
+            
+        },
+        btn:{
+            margin:10,
         },
         img: {
         }
@@ -17,26 +22,28 @@ function Cards(props){
     let btnVideo = ""
 
     if(deploy){
-       btnDeploy = <a href={deploy} className="btn btn-primary">Deploy Application</a>
+       btnDeploy = <a href={deploy} style={style.btn} className="btn btn-primary" target='_blank'>Deploy Application</a>
     }
 
     if(git){
-        btnGit = <a href={git} className="btn btn-primary">GitHub Repository</a>
+        btnGit = <a href={git} style={style.btn} className="btn btn-primary" target='_blank'>GitHub Repository</a>
     }
 
     if(video){
-        btnVideo = <a href={video} className="btn btn-primary">Video of application</a>
+        btnVideo = <a href={video} style={style.btn} className="btn btn-primary" target='_blank'>Video of application</a>
     }
 
     return(
-        <div className="card" style={style.card}>
-            <img className="card-img-top" src={props.img} alt={props.name}></img>
-            <div className="card-body">
-                <h5 class="card-title">{props.name}</h5>
-                <p className="card-text">{props.text}</p>
-                {btnDeploy}
-                {btnGit}
-                {btnVideo}
+        <div class="col col-md-3">
+            <div className="" style={style.card} key={props.key}>
+                <img className="card-img-top" src={props.img} alt={props.name}></img>
+                <div className="card-body">
+                    <h5 className="card-title">{props.name}</h5>
+                    <p className="card-text">{props.text}</p>
+                    {btnDeploy}
+                    {btnGit}
+                    {btnVideo}
+                </div>
             </div>
         </div>
     )

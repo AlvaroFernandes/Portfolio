@@ -10,16 +10,14 @@ import Contact from './Component/contact';
 function App() {
   return (
     <Router>
-      <BrowserRouter history={history} basename={process.env.PUBLIC_URL}>
-        <Navbar />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/home" component={Home} />
-          <Route exact path="/About" component={About} />
-          <Route exact path="/Portfolio" component={Portfolio} /> 
-          <Route exact path="/Contact" component={Contact} />
-        </Switch>
-      </BrowserRouter>
+      <Navbar />
+      <Switch>
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+        <Route exact path={process.env.PUBLIC_URL + "/home"} component={Home} />
+          <Route exact path={process.env.PUBLIC_URL + "/About"} component={About} />
+          <Route exact path={process.env.PUBLIC_URL + "/Portfolio"} component={Portfolio} /> 
+          <Route exact path={process.env.PUBLIC_URL + "/Contact"} component={Contact} />
+      </Switch>
     </Router>
   );
 }

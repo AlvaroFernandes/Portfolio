@@ -34,7 +34,7 @@ function Cards(props){
     }
 
     return(
-        <div class="col col-md-3">
+        <div class="col col-md-4">
             <div className="" style={style.card} key={props.key}>
                 <img className="card-img-top" src={props.img} alt={props.name}></img>
                 <div className="card-body">

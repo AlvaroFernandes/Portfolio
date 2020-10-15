@@ -45,7 +45,7 @@ function ContactContent() {
                         </div>
                     </form>
                     <div className="text-center text-md-left">
-                        <a className="btn btn-primary">Send</a>
+                        <a className="btn btn-primary" href="#">Send</a>
                     </div>
                     <div className="status"></div>
                 </div>
@@ -64,9 +64,9 @@ function ContactContent() {
                             <p>fernandes.alvaro@gmail.com</p>
                         </li>
                         <li>
-                            <a href="https://github.com/AlvaroFernandes" title="link for github repository" target="_blank" style={aStyle}><i className="fa fa-github mt-4 fa-2x" aria-hidden="true"></i></a>
-                            <a href="https://www.linkedin.com/in/alvaro-fernandes-07071985/" title="Follow me on LinkedIn" target="_blank" style={aStyle}><i className="fa fa-linkedin mt-4 fa-2x"></i></a>
-                            <a href="../assets/ResumeAlvaro.pdf" title="my resume" target="_self" style={aStyle}><i className="fa fa-file-pdf-o mt-4 fa-2x" aria-hidden="true"></i></a>
+                            <a href="https://github.com/AlvaroFernandes" title="link for github repository" target="_blank" rel="noopener noreferrer" style={aStyle}><i className="fa fa-github mt-4 fa-2x" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/alvaro-fernandes-07071985/" title="Follow me on LinkedIn" target="_blank" rel="noopener noreferrer" style={aStyle}><i className="fa fa-linkedin mt-4 fa-2x"></i></a>
+                            <a href="../assets/ResumeAlvaro.pdf" title="my resume" target="_self" rel="noopener noreferrer" style={aStyle}><i className="fa fa-file-pdf-o mt-4 fa-2x" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>

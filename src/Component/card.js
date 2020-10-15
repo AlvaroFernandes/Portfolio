@@ -6,6 +6,7 @@ function Cards(props){
         card: {
             width: 18+'rem',
             marginLeft: 10,
+            padding: 10
             
         },
         btn:{
@@ -22,19 +23,19 @@ function Cards(props){
     let btnVideo = ""
 
     if(deploy){
-       btnDeploy = <a href={deploy} style={style.btn} className="btn btn-primary" target='_blank'>Deploy Application</a>
+       btnDeploy = <a href={deploy} style={style.btn} className="btn btn-primary" target='_blank' rel="noopener noreferrer">Deploy Application</a>
     }
 
     if(git){
-        btnGit = <a href={git} style={style.btn} className="btn btn-primary" target='_blank'>GitHub Repository</a>
+        btnGit = <a href={git} style={style.btn} className="btn btn-primary" target='_blank' rel="noopener noreferrer">GitHub Repository</a>
     }
 
     if(video){
-        btnVideo = <a href={video} style={style.btn} className="btn btn-primary" target='_blank'>Video of application</a>
+        btnVideo = <a href={video} style={style.btn} className="btn btn-primary" target='_blank' rel="noopener noreferrer">Video of application</a>
     }
 
     return(
-        <div class="col col-md-4">
+        <div className="col col-md-4">
             <div className="" style={style.card} key={props.key}>
                 <img className="card-img-top" src={props.img} alt={props.name}></img>
                 <div className="card-body">
